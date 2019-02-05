@@ -15,12 +15,11 @@ int main(int argc, char** argv)
 			if(LPVOID allocString = (LPVOID)VirtualAllocEx(client, NULL, dllPath.length(), MEM_RESERVE | MEM_COMMIT, PAGE_READWRITE)) {
 				if(WriteProcessMemory(client, (LPVOID)allocString, dllPath.c_str(), dllPath.length(), NULL)) {
 					CreateRemoteThread(client, NULL, 0, (LPTHREAD_START_ROUTINE)LoadLibA, (LPVOID)allocString, 0, NULL);
+					CloseHandle(client);
 					return 0;
 				}
 			}
 		}
-
-		CloseHandle(client);
 	}
-	return 0;
+	return 1;
 }
