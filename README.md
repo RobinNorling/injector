@@ -1,4 +1,4 @@
-# DLL Injector - Undetected by Windows Defender(?)
+# DLL Injector - Almost fully undetected by AVs
 
 # Pre-compiled version:
 https://github.com/RobinNorling/injector/releases/download/2/injector.exe
