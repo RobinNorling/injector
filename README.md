@@ -1,8 +1,8 @@
 # DLL Injector - Almost fully undetected by AVs
 
 # Pre-compiled version:
-https://github.com/RobinNorling/injector/releases/download/2/injector.exe
+https://github.com/RobinNorling/injector/releases/download/3/injector.exe
 
 # Virus Scan
 
-https://www.virustotal.com/#/file/5d612f8c22d53444ce5e6c7742d55f3f57009b0da9fdcaece9036ef7b73b8e5c/detection
+https://www.virustotal.com/#/file/2917d3c76c394c4fa090afb9223280e0b537522110c80847c39b302b66e07e45/detection

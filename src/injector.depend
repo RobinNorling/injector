@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1550230545 source:c:\users\robnor\documents\mingw\injector\main.cpp
+	<windows.h>
+	<string>
+
